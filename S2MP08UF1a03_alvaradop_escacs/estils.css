@@ -1,0 +1,94 @@
+
+
+
+
+
+
+
+div {
+width: 800px;
+height: 800px;
+background-color: #BDB78B;
+margin: 0 auto;
+padding: 20px;
+}
+
+/*HACER DEGRADADOS
+background-image: radial-gradient(pink 0%, pink 50%, turquoise 50%, turquoise 50%)
+*/
+
+
+p{
+  height: 100px;
+  width: 100px;
+  margin: 0;
+  float: left;
+}
+
+
+/*Los div sirven para hacer estilos div{}*/
+/*Las class sirven para hacer estilos .{}*/
+
+
+
+.imparell{
+  background-color: black;
+}
+
+.parell{
+  background-color: white;
+}
+
+
+
+b{
+  display: block;
+  width: 80px;
+  height: 80px;
+  background-color: red;
+  border-radius: 50%;
+  margin: 10px;
+  background-image: radial-gradient(red, black);
+  background-size: 200% 200%;
+  background-position: -50px, -50px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+
+b:hover{
+  position: relative;
+  top: 100px;
+}
+
+
+
+.imparell b {
+  background-image: radial-gradient(blue, black);
+}
+
+.imparell:nth-child(2n) b {
+  background-image: radial-gradient(pink, black);
+}
+
+/*ELEMENT INLINE (no se li poden donar dimensions): a, b, u, s, i |  ELEMENT INBLOCK: div, p, table*/
+
+
+/*---TEORIA: PSEUDO-CLASSES-----
+Etiquetes ---> elemtns genèrics ex. <div>
+Classes ---> elements classificats en subgrups ex. .imparell
+ID ---> elements identificats de forma unica ex. #reiblanc
+
+
+
+PSEUDO-CLASSES  -----> estats dels elemtns
+ex:
+        :hover | QUAN PASSEM PER SOBRE
+        :visited | QUAN L'HEM VISITAT
+        :active | QUAN ESTEM FENT CLIC
+        :focus | QUAN ESTÀ SELECCIONAT
+        :checked | QUAN ESTA "CHECKAT"
+
+        :first-child | PRIMER ELEMENTS
+        :last-child | ULTIM ELEMENT
+        :nth-child | ELEMENTS N         */
