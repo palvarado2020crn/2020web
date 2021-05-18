@@ -1,0 +1,128 @@
+body{
+  background: url(img/fons.jpg);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.cap{
+  width: 960px;
+  height: 589px;
+  background: url(img/ani/taxi.png);
+  margin: 0 auto;
+  animation: diapos 10s infinite;
+}
+
+@keyframes diapos {
+0% {background: url(img/ani/back.png);}
+10% {background: url(img/ani/team.png);}
+20% {background: url(img/ani/bean.png);}
+30% {background: url(img/ani/bond.png);}
+40% {background: url(img/ani/break.png);}
+50% {background: url(img/ani/ghost.png);}
+60% {background: url(img/ani/pulp.png);}
+70% {background: url(img/ani/rider.png);}
+80% {background: url(img/ani/taxi.png);}
+90% {background: url(img/ani/team.png);}
+100% {background: url(img/ani/back.png);}
+}
+
+.cos{
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.peu{
+  width: 960px;
+  height: 220px;
+  background: ;
+}
+
+
+.peli{
+  width: 300px;
+  height: 240px;
+  background: purple;
+  background-size: 300px 240px;
+  opacity: 0.3;
+  overflow: hidden;
+}
+
+.peli:hover{
+  opacity: 1;
+  transform: rotateY(30deg);
+  transform-origin: left;
+  transition: 1s transform;
+}
+
+p{
+  height: 40px;
+  background: white;
+  margin: 200px 0 0 0;
+  font-family: arial black;
+  color: grey;
+}
+
+#pulp{
+  background-image: url(img/small/small_pulp.jpg);
+}
+
+#taxi{
+  background-image: url(img/small/small_taxi.jpg);
+}
+
+#gold{
+  background-image: url(img/small/small_bond.jpg);
+}
+
+#ghost{
+  background-image: url(img/small/small_ghost.jpg);
+}
+
+#bean{
+  background-image: url(img/small/small_bean.jpg);
+}
+
+#future{
+  background-image: url(img/small/small_back.jpg);
+}
+
+#rider{
+  background-image: url(img/small/small_rider.jpg);
+}
+
+#team{
+  background-image: url(img/small/small_team.jpg);
+}
+
+#bad{
+  background-image: url(img/small/small_break.jpg);
+}
+
+
+.d3{
+  margin: 10px;
+  width: 300px;
+  height: 240px;
+  perspective: 900px;
+  perspective-origin: center;
+  float: left;
+}
+
+.peu{
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1{
+  font-size: 4rem;
+  line-height: 2rem;
+  font-weight: 900;
+  font-family: helvetica, arial, sans-serif;
+}
+
+
+span{
+  color:#DDDBDF;
+}
