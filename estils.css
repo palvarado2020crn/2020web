@@ -1,0 +1,164 @@
+body{
+  background: url(img/fons.jpg);
+  margin: 0px;
+  padding: 0;
+  background-repeat : no-repeat;
+  background-size: cover;
+}
+
+.activitats{
+  width: 960px;
+  height: 189px;
+  margin: 0 auto;
+  background-color:;
+}
+
+h1{
+  font-family: verdana;
+  color: white;
+  margin: 100px auto;
+}
+h4{
+  font-family: verdana;
+  color: white;
+  margin: 60px auto;
+}
+a{
+  text-decoration: none;
+  color: blue;
+}
+
+.index{
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color:;
+
+}
+
+.alvaradop{
+  width: 200px;
+  height: 140px;
+  border-radius: 20px;
+  box-shadow: 6px 5px 4px 0 grey;
+  background: white;
+  background-size: 300px 240px;
+  opacity: 0.5;
+  overflow: hidden;
+}
+
+
+.alvaradop:hover{
+  opacity: 1;
+  transform: rotateY(30deg);
+  transform-origin: left;
+  transition: 0.5s transform;
+}
+
+
+p{
+  height: 40px;
+  background: pink;
+  margin: 110px 0 0 0;
+  text-align: center;
+  font-family: arial black;
+  color: black;
+  line-height: 2rem;
+}
+
+
+.d3{
+  margin: 10px;
+  width: 200px;
+  height: 140px;
+  perspective: 900px;
+  perspective-origin: center;
+  float: left;
+}
+
+
+.examens{
+width: 960px;
+height: 110px;
+margin: 0 auto;
+background-color: ;
+overflow: hidden;
+}
+
+#a00{
+  background-image: url(img/inicio.png);
+  background-repeat : no-repeat;
+  background-size: cover;
+}
+
+#a01{
+  background-image: url(img/feedly.png);
+  background-repeat : no-repeat;
+  background-size: cover;
+}
+
+#a03{
+  background-image: url(img/escacs.png);
+  background-repeat : no-repeat;
+  background-size: cover;
+}
+
+#a04{
+  background-image: url(img/cuatro.png);
+  background-repeat : no-repeat;
+  background-size: cover;
+}
+
+#b01{
+  background-image: url(img/banner.png);
+  background-repeat : no-repeat;
+  background-size: cover;
+}
+
+#b02{
+  background-image: url(img/bus.png);
+  background-repeat : no-repeat;
+  background-size: cover;
+}
+
+#b03{
+  background-image: url(img/coches.png);
+  background-repeat : no-repeat;
+  background-size: cover;
+}
+
+#b04{
+  background-image: url(img/zapas.png);
+  background-repeat : no-repeat;
+  background-size: cover;
+}
+
+#b05{
+  background-image: url(img/scroll.png);
+  background-repeat : no-repeat;
+  background-size: cover;
+}
+
+#b06{
+  background-image: url(img/foto.png);
+  background-repeat : no-repeat;
+  background-size: cover;
+}
+
+#b07{
+  background-image: url(img/octa.png);
+  background-repeat : no-repeat;
+  background-size: cover;
+}
+
+#b08{
+  background-image: url(img/exa.png);
+  background-repeat : no-repeat;
+  background-size: cover;
+}
+
+#b09{
+  background-image: url(img/cars.png);
+  background-repeat : no-repeat;
+  background-size: cover;
+}
