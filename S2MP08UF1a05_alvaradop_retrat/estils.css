@@ -1,0 +1,135 @@
+body{
+  background: #CCACEA;
+}
+
+.container{
+  position:relative;
+  width:500px;
+  height:300px;
+  margin:221px auto;
+}
+
+.cara{
+  position:absolute;
+  width:132px;
+  height:132px;
+  border-radius:100%;
+  background:#FFC29C;
+  margin:65px 175px;
+
+}
+
+.ceja1{
+  position:absolute;
+  width:30px;
+  height:18px;
+  border-radius:45%;
+  border-top:4px solid black;
+  margin: 38px 12px;
+}
+
+.ceja2{
+  position:absolute;
+  width:30px;
+  height:18px;
+  border-radius:45%;
+  border-top:4px solid black;
+  margin: 38px 90px;
+}
+
+.ojo1{
+  position:absolute;
+  width:30px;
+  height:30px;
+  border-radius:100%;
+  background:black;
+  margin: 55px 12px;
+}
+
+.ojo2{
+  position:absolute;
+  width:30px;
+  height:30px;
+  border-radius:100%;
+  background:black;
+  margin: 55px 90px;
+}
+
+
+.boca{
+  position:absolute;
+  width:25px;
+  height:15px;
+  border-radius:0 0 21px 21px;
+  background:#ff6666;
+  margin: 102px 55px;
+  overflow:hidden;
+}
+
+.boca::before{
+  content:"";
+  display:block;
+  width:27px;
+  height:21px;
+  border-radius:100%;
+  background:#ff9898;
+  margin:9px 0;
+}
+.cuello{
+  position:absolute;
+    border-bottom: 33px solid #FFC29C;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  height: 0;
+  width: 21px;
+  margin:129px 57px;
+
+}
+.cuello::before{
+  content:"";
+  display:block;
+  width:117px;
+  height:63px;
+  border-radius:20px 20px 0 0;
+  background:#A4DFB5;
+  margin:22px -48px;
+}
+.cuello::after{
+   content:"";
+  display:block;
+  width:40px;
+  height:27px;
+  border-radius: 30px 30px 152px 152px;
+  background:#78B06F;
+  margin:-90px -9px;
+}
+
+.pelo{
+  position:absolute;
+  width:160px;
+  height:150px;
+  border-radius:172px 172px 0 0;
+  background:black;
+  margin: 40px 161px;
+}
+
+.pelo::before{
+  content:"";
+  display:block;
+    border-bottom: 140px solid black;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  height: 0;
+  width: 160px;
+  margin:70px -30px;
+}
+
+.pelo::after{
+  content:"";
+  display:block;
+  width:220px;
+  height:50px;
+  border-radius:100%;
+  background:black;
+  margin:-95px -30px;
+}
